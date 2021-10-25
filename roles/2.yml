@@ -1,0 +1,6 @@
+---
+- name: roles
+  hosts: all
+  roles:
+    - sample
+- notify: restart_tomcat

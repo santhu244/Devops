@@ -1,0 +1,15 @@
+---
+# tasks file for sample
+- name: install a git
+  yum:
+    name: git
+    state: present
+- name: copy a file
+  copy: 
+    src: 2.txt
+    dest: /home/ec2-user/
+- name: copying a template
+  template:
+    src: templates/3.j2
+    dest: /home/ec2-user/
+ 
