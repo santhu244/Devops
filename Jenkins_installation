@@ -13,3 +13,5 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 
 Link: https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-20-04
+
+# we can change port number in the file /etc/default/jenkins
